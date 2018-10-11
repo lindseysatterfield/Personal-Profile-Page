@@ -92,13 +92,14 @@ header .profile-image:hover {
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 700px;
+  max-width: 500px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
+
 .card:hover {
   border-color: rgba(39, 253, 253, 0.849);
 }
