@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #70628b;
 }
 /* Link Styles */
 
@@ -87,12 +87,12 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: rgba(0, 247, 255, 0.877);
+  color: rgba(39, 253, 253, 0.849);
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  max-width: 700px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -100,7 +100,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: rgba(39, 253, 253, 0.849);
 }
 
 ul.skills {
@@ -111,14 +111,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #c3ff;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #c3ff;
 }
 
 footer {
