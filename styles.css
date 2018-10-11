@@ -180,7 +180,13 @@ a.social:hover {
       justify-content: space-around;
       margin: 0 auto;
   }
-
+.card {
+  width: 100%;
+}
+.card img {
+  display: block;
+  margin: 0 auto;
+}
   header {
     min-height: 470px;
   }
