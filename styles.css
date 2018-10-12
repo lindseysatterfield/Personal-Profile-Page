@@ -57,12 +57,13 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/Code project 1.jpg') no-repeat top center ;
+  background: url('images/Code-project-1.jpg') no-repeat top center ;
   background-size: cover;
-  background-position: bottom
+  background-position: top;
   overflow: hidden;
   padding-top: 60px;
 }
+
 header {
   line-height: 1.5;
 }
@@ -112,14 +113,20 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #c3ff;
+  background: rgb(204, 51, 255);
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #c3ff;
+  background: rgb(204, 51, 255);
+}
+
+.treehouse { 
+  padding-top: 15px;
+  padding-bottom: 10px;
+
 }
 
 footer {
@@ -182,28 +189,29 @@ a.social:hover {
   display: block;
   margin: 0 auto;
 }
-  header {
-    min-height: 470px;
+
+header {
+  min-height: 470px;
   }
 
-  .nav {
-    max-width: 1200px;
-    padding: 0 30px;
+.nav {
+  max-width: 1200px;
+  padding: 0 30px;
   }
 
 
-  main {
-    padding-top: 20px;
+main {
+  padding-top: 20px;
   }
 
-  main p {
-    line-height: 1.6em;
+main p {
+  line-height: 1.6em;
   }
 
-  footer {
-    font-size: 1.3em;
-    max-width: 1200px;
-    margin: 40px auto;
+footer {
+  font-size: 1.3em;
+  max-width: 1200px;
+  margin: 40px auto;
   }
 
 }
